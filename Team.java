@@ -10,7 +10,7 @@ public class Team implements IFootball, IClubFootball, ITableTennis{
 
 	@Override
 	public void setBestPlayers(int first11) {
-		System.out.println("This is the best team " + first11);
+		System.out.println("This is the best team: " + first11);
 	}
 
 	@Override
